@@ -2,7 +2,7 @@
 A minimal utility for managing your trash.
 
 ## Info
-`microtrash` runs through the `trash` command. It will trash your files in the `~/.trash` directory, and you can write a `.trash.toml` file in your home directory as well. This can be used to minimally configure `microtrash` on launch.
+`microtrash` runs through the `trash` command. It will trash your files in the `~/.trash` directory.
 It is not Freedesktop Standard compliant. It is small and minimal, designed purely for quick deletion and recovery.
 
 ## Commands
