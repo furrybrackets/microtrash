@@ -1,5 +1,7 @@
+// args.hpp
 #pragma once
 #include <string>
+#include <filesystem>
 
 typedef struct MArgs {
 	std::string filepath;
@@ -7,4 +9,4 @@ typedef struct MArgs {
 	std::string ct; // Compression type
 } MArgs;
 
-void parse_margs(MArgs* fmt, std::string src);
+void parse_margs(MArgs* fmt, const char** src, int slen);

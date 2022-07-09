@@ -29,8 +29,8 @@ main.o: main.cpp
 CXX=clang++
 OFLAGS=3
 OUTPUT=trash
-CXXFLAGS=-Wall
-OBJFLAGS=-O3
+CXXFLAGS=-Wall -std=c++17
+OBJFLAGS=-O3 -std=c++17
 
 # directory info
 PREFIX = /usr/local
