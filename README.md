@@ -44,8 +44,3 @@ Specify the number of cores using the `-j` flag:
 ```
 trash compress -t gzip -j8
 ```
-
-```
-trash recover <(FILE | DIRECTORY)...> [RELATIVE PATH]
-```
-Pushes files out of trash (potentially unzipping compressed trashdir) to the relative path. If omitted, expected to be current working directory.
