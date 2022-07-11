@@ -20,11 +20,11 @@ dist: clean
 
 # file deps
 args.o: args.cpp args.hpp
-	$(CXX) args.cpp $(OBJFLAGS) -c
+	$(CXX) args.cpp -c $(OBJFLAGS)
 
 main.o: main.cpp
-	$(CXX) main.cpp $(OBJFLAGS) -c
-	
+	$(CXX) main.cpp -c $(OBJFLAGS)
+
 
 CXX=clang++
 OFLAGS=3
